@@ -6,6 +6,9 @@ using namespace std;
 string removeAllSpaces(const string& str) {
     string result = "";
     for (char ch : str) {
+        // if (isalpha(ch)) {
+        //     result += ch;
+        // }
         if (ch != ' ') {
             result += ch;
         }
